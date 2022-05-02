@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search results</title>
+  </head>
+  <style>
+      #navbar{
+      display: flex;
+      /* border: 1px solid red; */
+    }
+    #news{
+      display: flex;
+      /* border: 1px solid yellow; */
+      margin-left: 0.5vw;
+      margin-top: 2vw;
+      
+    }
+    #img{
+      width: 200px;
+      height: 100%;
+      /* border: 1px solid blue; */
+      
+    }
+    #img> img {
+      width: 100%;
+      height: 100%;
+    }
+    #search_input{
+      margin-left: 3vw;
+      height: 3vw;
+     margin-top: .7vw;
+     width: 80%;
+    }
+    #newsdis{
+      margin-left: 1vw;
+    }
+  </style>
+  <body>
+    <!-- Same navbar with same functionality  -->
+
+    <!-- Append results inside div with id "results"  -->
+    <!-- News divs will have class "news"  -->
+    <div id="navbar">
+      <!-- <h2><a href="./index.html">News App</a></h2>
+      <input id="search_input" placeholder="Search news"/> -->
+    </div>
+    <div id="results"></div>
+  </body>
+
+</html>
+<script src="./scripts/search.js" type="module" ></script>
